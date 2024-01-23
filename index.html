@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hockeys</title>
+    <!-- tailwend cdn  -->
+
+    <!-- tailwind daisy khala  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/06929cee9e.js" crossorigin="anonymous"></script>
+    <!-- google fonts  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- custom confiq tailwind  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'orangecum-color': '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- ccumtom css  -->
+    <style>
+        .go-fonts {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="go-fonts">
+
+    <header class="container mx-auto ">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home </a></li>
+                            <li>
+                                <details>
+                                    <summary>About</summary>
+                                    <ul class="p-2">
+                                        <li><a>About Me </a></li>
+                                        <li><a>company</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Page</summary>
+                                    <ul class="p-2">
+                                        <li><a>page 1</a></li>
+                                        <li><a>page 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Blogs</summary>
+                                    <ul class="p-2">
+                                        <li><a>Blogs 1</a></li>
+                                        <li><a>Blogs 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Contact</summary>
+                                    <ul class="p-2">
+                                        <li><a>Phone</a></li>
+                                        <li><a>Email</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="font-extrabold text-3xl">Hockey<span class="text-orangecum-color">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a><span class="text-orangecum-color">Home</span> </a></li>
+                        <li>
+                            <details>
+                                <summary>About</summary>
+                                <ul class="p-2">
+                                    <li><a>About Me </a></li>
+                                    <li><a>company</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Page</summary>
+                                <ul class="p-2">
+                                    <li><a>page 1</a></li>
+                                    <li><a>page 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Blogs</summary>
+                                <ul class="p-2">
+                                    <li><a>Blogs 1</a></li>
+                                    <li><a>Blogs 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Contact</summary>
+                                <ul class="p-2">
+                                    <li><a>Phone</a></li>
+                                    <li><a>Email</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="flex ">
+
+                </div>
+                <div class="navbar-end">
+                    <a href="" class="p-4  cursor-pointer lg:flex hidden">
+                        <i class="fa-solid fa-magnifying-glass text-base  text-block
+                        "></i>
+                        </i></a>
+                    <a class="btn bg-orangecum-color text-white">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner section  -->
+
+
+        <section class="px-2 lg:relative">
+
+            <div class="carousel w-full ">
+                <!-- slide one  -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex gap-4 lg:justify-start justify-center left-5 right-5  bottom-8">
+                        <a href="#slide3" class="lg:py-4 lg:px-6 py-2 px-4 rounded-full  bg-black text-white">❮</a>
+                        <a href="#slide2" class="lg:py-4 lg:px-6 py-2 px-4 rounded-full  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide two  -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/hp-1.jpg" class="w-full" />
+                    <div class="absolute flex gap-4 lg:justify-start justify-center left-5 right-5  bottom-8">
+                        <a href="#slide1" class="lg:py-4 lg:px-6 py-2 px-4 rounded-full  bg-black text-white">❮</a>
+                        <a href="#slide3" class="lg:py-4 lg:px-6 py-2 px-4 rounded-full  bg-black text-white">❯</a>
+                    </div>
+                    <!-- slide three  -->
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/hp-2.jpg" class="w-full" />
+                    <div class="absolute flex gap-4 lg:justify-start justify-center left-5 right-5  bottom-8">
+                        <a href="#slide2" class="lg:py-4 lg:px-6 py-2 px-4 rounded-full  bg-black text-white">❮</a>
+                        <a href="#slide1" class="lg:py-4 lg:px-6 py-2 px-4 rounded-full  bg-black text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="  bg-black text-white lg:w-[500px] w-full lg:p-8 p-4 rounded-xl lg:space-y-4 space-y-2  lg:absolute bottom-8 right-8  ">
+                <h2 class="font-extrabold ">Meet all the heroes from the field</h2>
+                <p>Gather under the banner of greatness as we unveil a league of extraordinary individuals</p>
+            </div>
+        </section>
+    </header>
+    <main class="container mx-auto">
+
+        <section class="px-4   lg:my-20 my-10 ">
+            <hr>
+            <div class="text-center  space-y-4 py-8">
+                <h2 class="font-extrabold lg:text-2xl   ">Professional Hockeys Club</h2>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in
+                    sit
+                    nullam proin. </p>
+            </div>
+            <hr>
+            <div class=" mt-12 lg:flex lg:justify-around lg:flex-row flex-col text-center space-y-8 gap-10 ">
+                <!-- readial 01 -->
+                <div class="lg:pt-8">
+                    <div class="radial-progress text-[#ff4240]" style="--value:87;" role="progressbar">
+                        <p class="text-black">87%</p>
+                    </div>
+                    <h3 class="font-extrabold text-xl">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- readial 02 -->
+                <div>
+                    <div class="radial-progress text-[#49d293]" style="--value:95;" role="progressbar">
+                        <p class="text-block">95%</p>
+                    </div>
+                    <h3 class="font-extrabold text-xl">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- readial 03 -->
+                <div>
+                    <div class="radial-progress text-[#ffb546]" style="--value:90;" role="progressbar">
+                        <p class="text-block">90%</p>
+                    </div>
+                    <h3 class="font-extrabold text-xl">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- readial 04  -->
+                <div>
+                    <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar">
+                        <p class="text-block">80%</p>
+                    </div>
+                    <h3 class="font-extrabold text-xl">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <!-- Program section start  -->
+
+        <section class="p-4  lg:my-20 my-10">
+            <hr>
+            <!-- Program section contant   -->
+            <div class="text-center   space-y-4 py-8 ">
+                <h2 class="font-extrabold lg:text-2xl  ">Program Sections</h2>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
+            <hr>
+            <!-- Program section banner  -->
+
+            <div class="">
+
+                <div class=" flex lg:flex-row  flex-col gap-6 mb-6">
+                    <!-- card number one  -->
+                    <div
+                        class="bg-[linear-gradient(to_left_bottom,rgba(19,19,19,0.58),rgba(0,0,0,0.8)),url('Images/2.png')] lg:h-[50vh] w-full bg-no-repeat bg-cover bg-center rounded-xl lg:relative">
+                        <div class=" lg:absolute text-white left-5 bottom-5 p-5 space-y-5 ">
+                            <h3 class="font-extrabold lg:text-3xl text-xl">Junior Program</h3>
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <a class="btn bg-orangecum-color text-white">Register Now!</a>
+                        </div>
+                    </div>
+                    <!-- card number thow  -->
+
+                    <div
+                        class="bg-[linear-gradient(to_left_bottom,rgba(19,19,19,0.58),rgba(0,0,0,0.8)),url('Images/2.png')] lg:h-[50vh] w-full bg-no-repeat bg-cover bg-center rounded-xl lg:relative">
+                        <div class=" lg:absolute text-white left-5 bottom-5 p-5 space-y-5 ">
+                            <h3 class="font-extrabold lg:text-3xl text-xl">Junior Program</h3>
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                                Tortor
+                                congue sed et in.</p>
+                            <a class="btn bg-orangecum-color text-white">Register Now!</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!-- card number three  -->
+
+
+                <div
+                    class="bg-[linear-gradient(to_left_bottom,rgba(19,19,19,0.58),rgba(0,0,0,0.8)),url('Images/2.png')] lg:h-[50vh] w-full bg-no-repeat bg-cover bg-center rounded-xl lg:relative">
+                    <div class=" lg:absolute text-white left-5 bottom-5 p-5 space-y-5 ">
+                        <h3 class="font-extrabold lg:text-3xl text-xl">Junior Program</h3>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <a class="btn bg-orangecum-color text-white">Register Now!</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="px-4   ">
+
+            <!-- section title Our New Products  -->
+            <div class="text-center  space-y-4 py-8">
+                <h2 class="font-extrabold lg:text-2xl   ">Our New Products</h2>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
+            <!-- section title Our New Products  card aLL -->
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-6">
+
+                <!-- card 01 -->
+                <div class="flex lg:flex-row flex-col items-center gap-5 border rounded-xl p-5">
+                    <!-- card banner  -->
+                    <div class="lg:w-auto w-full md:w-3/4">
+                        <img class="lg:w-auto w-full" src="Images/5.png" alt="">
+                    </div>
+                    <!-- card title  -->
+                    <div class="lg:space-y-5 space-y-3 lg:w-auto w-full ">
+                        <!-- icos  -->
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-star text-[#f99808]"></i>
+                            <span>5.0</span>
+                            <i class="fa-solid fa-eye text-[#89898B]"></i>
+                            <span>20</span>
+                            <i class="fa-solid fa-heart text-[#89898B]"></i>
+                            <span>200</span>
+                        </div>
+                        <!-- title  -->
+                        <div class="space-y-5">
+                            <h2 class="font-extrabold lg:text-3xl text-xl   ">Our New Products</h2>
+                            <span class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </span>
+                        </div>
+                        <!-- price delivery -->
+                        <div class="flex gap-3">
+                            <!-- price  -->
+                            <span class="text-[#ff6664]">Price - $22.00</span>
+                            <!-- delivary  -->
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-cart-shopping text-[#89898B] font-bold"></i>
+                                <span>delivaryfullfree</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card 02 -->
+                <div class="flex lg:flex-row flex-col items-center gap-5 border rounded-xl p-5">
+                    <!-- card banner  -->
+                    <div class="lg:w-auto w-full md:w-3/4">
+                        <img class="lg:w-auto w-full" src="Images/6.png" alt="">
+                    </div>
+                    <!-- card title  -->
+                    <div class="lg:space-y-5 space-y-3 lg:w-auto w-full ">
+                        <!-- icos  -->
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-star text-[#f99808]"></i>
+                            <span>5.0</span>
+                            <i class="fa-solid fa-eye text-[#89898B]"></i>
+                            <span>20</span>
+                            <i class="fa-solid fa-heart text-[#89898B]"></i>
+                            <span>200</span>
+                        </div>
+                        <!-- title  -->
+                        <div class="space-y-5">
+                            <h2 class="font-extrabold lg:text-3xl text-xl   ">Our New Products</h2>
+                            <span class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </span>
+                        </div>
+                        <!-- price delivery -->
+                        <div class="flex gap-3">
+                            <!-- price  -->
+                            <span class="text-[#ff6664]">Price - $22.00</span>
+                            <!-- delivary  -->
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-cart-shopping text-[#89898B] font-bold"></i>
+                                <span>delivaryfullfree</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card 03 -->
+                <div class="flex lg:flex-row flex-col items-center gap-5 border rounded-xl p-5">
+                    <!-- card banner  -->
+                    <div class="lg:w-auto w-full md:w-3/4">
+                        <img class="lg:w-auto w-full" src="Images/7.png" alt="">
+                    </div>
+                    <!-- card title  -->
+                    <div class="lg:space-y-5 space-y-3 lg:w-auto w-full ">
+                        <!-- icos  -->
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-star text-[#f99808]"></i>
+                            <span>5.0</span>
+                            <i class="fa-solid fa-eye text-[#89898B]"></i>
+                            <span>20</span>
+                            <i class="fa-solid fa-heart text-[#89898B]"></i>
+                            <span>200</span>
+                        </div>
+                        <!-- title  -->
+                        <div class="space-y-5">
+                            <h2 class="font-extrabold lg:text-3xl text-xl   ">Our New Products</h2>
+                            <span class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </span>
+                        </div>
+                        <!-- price delivery -->
+                        <div class="flex gap-3">
+                            <!-- price  -->
+                            <span class="text-[#ff6664]">Price - $22.00</span>
+                            <!-- delivary  -->
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-cart-shopping text-[#89898B] font-bold"></i>
+                                <span>delivaryfullfree</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card 04 -->
+                <div class="flex lg:flex-row flex-col items-center gap-5 border rounded-xl p-5">
+                    <!-- card banner  -->
+                    <div class="lg:w-auto w-full md:w-3/4">
+                        <img class="lg:w-auto w-full" src="Images/8.png" alt="">
+                    </div>
+                    <!-- card title  -->
+                    <div class="lg:space-y-5 space-y-3 lg:w-auto w-full ">
+                        <!-- icos  -->
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-star text-[#f99808]"></i>
+                            <span>5.0</span>
+                            <i class="fa-solid fa-eye text-[#89898B]"></i>
+                            <span>20</span>
+                            <i class="fa-solid fa-heart text-[#89898B]"></i>
+                            <span>200</span>
+                        </div>
+                        <!-- title  -->
+                        <div class="space-y-5">
+                            <h2 class="font-extrabold lg:text-3xl text-xl   ">Our New Products</h2>
+                            <span class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </span>
+                        </div>
+                        <!-- price delivery -->
+                        <div class="flex gap-3">
+                            <!-- price  -->
+                            <span class="text-[#ff6664]">Price - $22.00</span>
+                            <!-- delivary  -->
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-cart-shopping text-[#89898B] font-bold"></i>
+                                <span>delivaryfullfree</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card 05 -->
+                <div class="flex lg:flex-row flex-col items-center gap-5 border rounded-xl p-5">
+                    <!-- card banner  -->
+                    <div class="lg:w-auto w-full md:w-3/4">
+                        <img class="lg:w-auto w-full" src="Images/9.png" alt="">
+                    </div>
+                    <!-- card title  -->
+                    <div class="lg:space-y-5 space-y-3 lg:w-auto w-full ">
+                        <!-- icos  -->
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-star text-[#f99808]"></i>
+                            <span>5.0</span>
+                            <i class="fa-solid fa-eye text-[#89898B]"></i>
+                            <span>20</span>
+                            <i class="fa-solid fa-heart text-[#89898B]"></i>
+                            <span>200</span>
+                        </div>
+                        <!-- title  -->
+                        <div class="space-y-5">
+                            <h2 class="font-extrabold lg:text-3xl text-xl   ">Our New Products</h2>
+                            <span class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </span>
+                        </div>
+                        <!-- price delivery -->
+                        <div class="flex gap-3">
+                            <!-- price  -->
+                            <span class="text-[#ff6664]">Price - $22.00</span>
+                            <!-- delivary  -->
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-cart-shopping text-[#89898B] font-bold"></i>
+                                <span>delivaryfullfree</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 06 -->
+                <div class="flex lg:flex-row flex-col items-center gap-5 border rounded-xl p-5">
+                    <!-- card banner  -->
+                    <div class="lg:w-auto w-full md:w-3/4">
+                        <img class="lg:w-auto w-full" src="Images/10.png" alt="">
+                    </div>
+                    <!-- card title  -->
+                    <div class="lg:space-y-5 space-y-3 lg:w-auto w-full ">
+                        <!-- icos  -->
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-star text-[#f99808]"></i>
+                            <span>5.0</span>
+                            <i class="fa-solid fa-eye text-[#89898B]"></i>
+                            <span>20</span>
+                            <i class="fa-solid fa-heart text-[#89898B]"></i>
+                            <span>200</span>
+                        </div>
+                        <!-- title  -->
+                        <div class="space-y-5">
+                            <h2 class="font-extrabold lg:text-3xl text-xl   ">Our New Products</h2>
+                            <span class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </span>
+                        </div>
+                        <!-- price delivery -->
+                        <div class="flex gap-3">
+                            <!-- price  -->
+                            <span class="text-[#ff6664]">Price - $22.00</span>
+                            <!-- delivary  -->
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-cart-shopping text-[#89898B] font-bold"></i>
+                                <span>delivaryfullfree</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
